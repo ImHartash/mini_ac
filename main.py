@@ -43,7 +43,7 @@ class Logger:
         while self.is_active:
             # Method
             keyboard.press_and_release(self.press_button) # Pressing your button
-            mouse.click(button='left')
+            # mouse.click(button='left')
             
             # print(self.colors['message'] + '[*] Clicked') # Print function
             time.sleep(self.wait_seconds)
